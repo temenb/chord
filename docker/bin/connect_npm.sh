@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-CONTAINER_NAME="alexa-npm";
+CONTAINER_NAME="chord-npm";
 
 function greenMessage {
 	local GREEN="\033[0;32m";

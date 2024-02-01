@@ -19,4 +19,7 @@ use Illuminate\Support\Facades\Route;
 
 Auth::routes();
 
+Route::get('/', function() {
+    return redirect()->route('home');
+})->name('root');
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

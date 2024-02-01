@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-CONTAINER_NAME="alexa-php";
+CONTAINER_NAME="chord-php";
 
 bash -c "docker exec -i ${CONTAINER_NAME} bash -c \"supervisord -c /etc/supervisor/supervisord.conf\"";
 bash -c "docker exec -i ${CONTAINER_NAME} bash -c \"supervisorctl reread\"";

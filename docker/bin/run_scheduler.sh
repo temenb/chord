@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker exec -i alexa-php sh -c "php artisan schedule:run"
+docker exec -i chord-php sh -c "php artisan schedule:run"

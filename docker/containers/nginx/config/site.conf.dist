@@ -2,7 +2,7 @@ server {
     listen 80;
     root /project/public;
     index index.php index.html;
-    server_name alexa.loc;
+    server_name chord.loc;
     error_log /etc/logs/nginx/nginx_error.log;
     access_log /etc/logs/nginx/nginx_access.log;
     charset utf-8;

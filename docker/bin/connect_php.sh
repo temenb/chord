@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-CONTAINER_NAME="alexa-php";
+CONTAINER_NAME="chord-php";
 
 function greenMessage {
 	local GREEN="\033[0;32m";
